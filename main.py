@@ -7,7 +7,7 @@ from handlers import start, admin, booking, contact, search
 from middlewares.antiflood import AntifloodMiddleware
 from utils.logger import setup_logger
 from dotenv import load_dotenv
-
+print("🟢 KalinRentBot запущен!")
 # Загружаем переменные окружения из t.env
 load_dotenv("t.env")
 print("OWNER_ID =", os.getenv("OWNER_ID"))

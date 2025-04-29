@@ -1,2 +1,67 @@
 2025-04-29 19:02:33,272 - [INFO] - Start polling
 2025-04-29 19:02:33,482 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 19:03:30,687 - [WARNING] - Received SIGTERM signal
+2025-04-29 19:03:30,687 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 19:03:30,687 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+OWNER_ID = 6180797700
+2025-04-29 19:03:31,516 - [INFO] - Start polling
+2025-04-29 19:03:31,680 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 19:04:22,809 - [INFO] - Update id=28738242 is handled. Duration 232 ms by bot id=8088668796
+2025-04-29 19:08:38,212 - [INFO] - Update id=28738243 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:08:41,365 - [INFO] - Update id=28738244 is handled. Duration 95 ms by bot id=8088668796
+2025-04-29 19:08:42,300 - [INFO] - Update id=28738245 is not handled. Duration 7 ms by bot id=8088668796
+2025-04-29 19:08:51,419 - [INFO] - Update id=28738246 is not handled. Duration 11 ms by bot id=8088668796
+2025-04-29 19:09:35,656 - [INFO] - Update id=28738247 is not handled. Duration 8 ms by bot id=8088668796
+2025-04-29 19:09:39,436 - [INFO] - Update id=28738248 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:11:04,120 - [INFO] - Update id=28738249 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:11:30,437 - [INFO] - Update id=28738250 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:12:00,647 - [INFO] - Update id=28738251 is not handled. Duration 3 ms by bot id=8088668796
+2025-04-29 19:12:01,671 - [INFO] - Update id=28738252 is not handled. Duration 3 ms by bot id=8088668796
+2025-04-29 19:12:02,214 - [INFO] - Update id=28738253 is handled. Duration 139 ms by bot id=8088668796
+2025-04-29 19:12:03,613 - [INFO] - Update id=28738254 is not handled. Duration 2 ms by bot id=8088668796
+2025-04-29 19:12:04,466 - [INFO] - Update id=28738255 is handled. Duration 137 ms by bot id=8088668796
+2025-04-29 19:14:07,112 - [INFO] - Update id=28738256 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:14:12,644 - [INFO] - Update id=28738257 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:14:22,113 - [INFO] - Update id=28738258 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:14:40,599 - [INFO] - Update id=28738259 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:14:41,519 - [INFO] - Update id=28738260 is not handled. Duration 2 ms by bot id=8088668796
+2025-04-29 19:16:01,563 - [INFO] - Update id=28738261 is not handled. Duration 3 ms by bot id=8088668796
+2025-04-29 19:16:03,401 - [INFO] - Update id=28738262 is handled. Duration 170 ms by bot id=8088668796
+2025-04-29 19:17:38,474 - [INFO] - Update id=28738263 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-29 19:17:41,521 - [INFO] - Update id=28738264 is handled. Duration 85 ms by bot id=8088668796
+2025-04-29 19:17:48,287 - [INFO] - Update id=28738265 is handled. Duration 94 ms by bot id=8088668796
+2025-04-29 19:17:49,584 - [INFO] - Update id=28738266 is handled. Duration 161 ms by bot id=8088668796
+2025-04-29 19:17:50,348 - [INFO] - Update id=28738267 is handled. Duration 3 ms by bot id=8088668796
+2025-04-29 19:18:00,800 - [INFO] - Update id=28738268 is handled. Duration 93 ms by bot id=8088668796
+2025-04-29 19:18:05,636 - [INFO] - Update id=28738269 is handled. Duration 133 ms by bot id=8088668796
+2025-04-29 19:20:13,233 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-29 19:20:13,233 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-29 19:20:17,809 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-29 19:20:17,913 - [INFO] - Update id=28738270 is handled. Duration 101 ms by bot id=8088668796
+2025-04-29 19:20:18,360 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-29 19:20:18,360 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-29 19:20:19,480 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-29 19:20:19,483 - [INFO] - Update id=28738271 is not handled. Duration 1 ms by bot id=8088668796
+2025-04-29 19:20:20,900 - [INFO] - Update id=28738272 is handled. Duration 120 ms by bot id=8088668796
+2025-04-29 19:20:21,856 - [INFO] - Update id=28738273 is not handled. Duration 3 ms by bot id=8088668796
+2025-04-29 19:20:23,023 - [INFO] - Update id=28738274 is handled. Duration 89 ms by bot id=8088668796
+2025-04-29 19:20:23,557 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-29 19:20:23,558 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-29 19:20:29,036 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-29 19:20:29,037 - [WARNING] - Sleep for 1.283805 seconds and try again... (tryings = 1, bot id = 8088668796)
+2025-04-29 19:20:40,438 - [INFO] - Connection established (tryings = 2, bot id = 8088668796)
+2025-04-29 19:23:57,777 - [WARNING] - Received SIGTERM signal
+2025-04-29 19:23:57,777 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 19:23:57,777 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+OWNER_ID = 6180797700
+2025-04-29 19:23:58,682 - [INFO] - Start polling
+2025-04-29 19:23:58,894 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 19:30:23,858 - [WARNING] - Received SIGTERM signal
+2025-04-29 19:30:23,859 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 19:30:23,859 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+OWNER_ID = 6180797700
+2025-04-29 19:30:24,796 - [INFO] - Start polling
+2025-04-29 19:30:25,065 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'

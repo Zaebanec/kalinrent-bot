@@ -1,0 +1,7 @@
+t.env
+.env
+*.db
+__pycache__/
+*.pyc
+logs/
+media/

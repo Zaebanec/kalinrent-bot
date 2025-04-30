@@ -364,3 +364,12 @@ Traceback (most recent call last):
 NameError: name 'router' is not defined
 2025-04-30 14:00:09,063 - [INFO] - Start polling
 2025-04-30 14:00:09,233 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:00:11,988 - [INFO] - Update id=28738388 is handled. Duration 1650 ms by bot id=8088668796
+2025-04-30 14:00:13,174 - [WARNING] - Received SIGTERM signal
+2025-04-30 14:00:13,174 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:00:13,174 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+2025-04-30 14:00:13,998 - [INFO] - Start polling
+2025-04-30 14:00:14,246 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'

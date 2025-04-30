@@ -2,7 +2,7 @@
 from aiogram import Router, types, F
 from aiogram.types import CallbackQuery
 import subprocess
-from keyboards.admin_menu import admin_menu
+from keyboards.admin_inline_menu import admin_menu
 
 router = Router()
 

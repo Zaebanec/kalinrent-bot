@@ -65,3 +65,121 @@ OWNER_ID = 6180797700
 OWNER_ID = 6180797700
 2025-04-29 19:30:24,796 - [INFO] - Start polling
 2025-04-29 19:30:25,065 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 19:38:56,826 - [WARNING] - Received SIGTERM signal
+2025-04-29 19:38:56,826 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 19:38:56,826 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+2025-04-29 19:38:57,787 - [INFO] - Start polling
+2025-04-29 19:38:58,001 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-29 21:18:43,829 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-29 21:18:43,831 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-29 21:18:55,149 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-29 21:24:10,357 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-29 21:24:10,359 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-29 21:24:21,531 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 00:30:49,018 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 00:30:49,020 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 00:31:00,290 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 01:16:22,695 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-04-30 01:16:22,697 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 01:16:33,955 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 02:04:44,245 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 02:04:44,248 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 02:04:55,512 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 02:10:37,354 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 02:10:37,355 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 02:10:48,588 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 03:45:49,296 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 03:45:49,297 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 03:46:00,805 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 04:18:44,057 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 04:18:44,058 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 04:18:55,306 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 04:51:31,726 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 04:51:31,727 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 04:51:42,985 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 05:15:08,261 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 05:15:08,262 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 05:15:19,423 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 05:31:56,216 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 05:31:56,216 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 05:32:07,548 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 07:07:31,441 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 07:07:31,441 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 07:07:47,908 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 07:25:03,154 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 07:25:03,155 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 07:25:14,348 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 07:44:12,128 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 07:44:12,129 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 07:44:23,405 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 08:04:10,444 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 08:04:10,445 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 08:04:21,713 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 08:33:24,690 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 08:33:24,691 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 08:33:35,867 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 10:04:25,673 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 10:04:25,674 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 10:04:36,912 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 10:17:03,862 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 10:17:03,863 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 10:17:15,410 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 10:35:23,621 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 10:35:23,621 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 10:35:34,870 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 11:41:17,653 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 11:41:17,653 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 12:51:30,928 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 12:51:30,929 - [WARNING] - Sleep for 1.395431 seconds and try again... (tryings = 1, bot id = 8088668796)
+2025-04-30 12:56:53,661 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 12:56:53,662 - [WARNING] - Sleep for 1.871094 seconds and try again... (tryings = 2, bot id = 8088668796)
+2025-04-30 12:57:06,096 - [INFO] - Connection established (tryings = 3, bot id = 8088668796)
+2025-04-30 13:04:32,095 - [INFO] - Update id=28738275 is handled. Duration 281 ms by bot id=8088668796
+2025-04-30 13:07:35,640 - [INFO] - Update id=28738276 is handled. Duration 194 ms by bot id=8088668796
+2025-04-30 13:07:37,064 - [INFO] - Update id=28738277 is handled. Duration 91 ms by bot id=8088668796
+2025-04-30 13:07:37,887 - [INFO] - Update id=28738278 is handled. Duration 6 ms by bot id=8088668796
+2025-04-30 13:07:41,880 - [INFO] - Update id=28738279 is handled. Duration 75 ms by bot id=8088668796
+2025-04-30 13:07:43,655 - [INFO] - Update id=28738280 is handled. Duration 85 ms by bot id=8088668796
+2025-04-30 13:07:46,289 - [INFO] - Update id=28738281 is handled. Duration 80 ms by bot id=8088668796
+2025-04-30 13:07:48,048 - [INFO] - Update id=28738282 is handled. Duration 90 ms by bot id=8088668796
+2025-04-30 13:07:52,226 - [INFO] - Update id=28738283 is handled. Duration 79 ms by bot id=8088668796
+2025-04-30 13:07:54,175 - [INFO] - Update id=28738284 is handled. Duration 80 ms by bot id=8088668796
+2025-04-30 13:07:56,333 - [INFO] - Update id=28738285 is handled. Duration 81 ms by bot id=8088668796
+2025-04-30 13:07:57,994 - [INFO] - Update id=28738286 is handled. Duration 108 ms by bot id=8088668796
+2025-04-30 13:08:04,544 - [INFO] - Update id=28738287 is handled. Duration 83 ms by bot id=8088668796
+2025-04-30 13:08:15,685 - [INFO] - Update id=28738288 is handled. Duration 86 ms by bot id=8088668796
+2025-04-30 13:15:22,206 - [INFO] - Update id=28738289 is not handled. Duration 3 ms by bot id=8088668796
+2025-04-30 13:15:29,783 - [INFO] - Update id=28738290 is not handled. Duration 3 ms by bot id=8088668796
+2025-04-30 13:15:31,115 - [INFO] - Update id=28738291 is handled. Duration 107 ms by bot id=8088668796
+2025-04-30 13:15:33,287 - [INFO] - Update id=28738292 is not handled. Duration 2 ms by bot id=8088668796
+2025-04-30 13:15:34,240 - [INFO] - Update id=28738293 is handled. Duration 86 ms by bot id=8088668796
+2025-04-30 13:15:37,039 - [INFO] - Update id=28738294 is handled. Duration 192 ms by bot id=8088668796
+2025-04-30 13:16:02,456 - [INFO] - Update id=28738295 is handled. Duration 85 ms by bot id=8088668796
+2025-04-30 13:22:24,724 - [INFO] - Update id=28738296 is not handled. Duration 3 ms by bot id=8088668796
+2025-04-30 13:22:25,497 - [INFO] - Update id=28738297 is handled. Duration 110 ms by bot id=8088668796
+2025-04-30 13:22:26,666 - [INFO] - Update id=28738298 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-30 13:22:28,594 - [INFO] - Update id=28738299 is handled. Duration 194 ms by bot id=8088668796
+2025-04-30 13:22:30,278 - [INFO] - Update id=28738300 is handled. Duration 138 ms by bot id=8088668796
+2025-04-30 13:22:33,378 - [INFO] - Update id=28738301 is handled. Duration 131 ms by bot id=8088668796
+2025-04-30 13:22:34,156 - [INFO] - Update id=28738302 is not handled. Duration 7 ms by bot id=8088668796
+2025-04-30 13:22:35,477 - [INFO] - Update id=28738303 is not handled. Duration 6 ms by bot id=8088668796
+2025-04-30 13:25:30,168 - [INFO] - Update id=28738304 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-30 13:25:32,821 - [INFO] - Update id=28738305 is handled. Duration 99 ms by bot id=8088668796
+2025-04-30 13:25:34,225 - [INFO] - Update id=28738306 is not handled. Duration 3 ms by bot id=8088668796
+2025-04-30 13:25:34,966 - [INFO] - Update id=28738307 is handled. Duration 91 ms by bot id=8088668796
+2025-04-30 13:25:35,903 - [INFO] - Update id=28738308 is not handled. Duration 2 ms by bot id=8088668796
+2025-04-30 13:25:36,560 - [INFO] - Update id=28738309 is not handled. Duration 4 ms by bot id=8088668796
+2025-04-30 13:26:42,649 - [WARNING] - Received SIGTERM signal
+2025-04-30 13:26:42,650 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 13:26:42,650 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+⚠️ OWNER_ID не найден. Проверь t.env
+Traceback (most recent call last):
+  File "/Users/39apple.ru/projects/kalinrentbot/main.py", line 10, in <module>
+    from handlers import admin_update_handler
+ImportError: cannot import name 'admin_update_handler' from 'handlers' (unknown location)

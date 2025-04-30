@@ -402,3 +402,20 @@ OWNER_ID = 6180797700
 2025-04-30 14:17:42,691 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
 2025-04-30 14:18:15,315 - [INFO] - Update id=28738392 is handled. Duration 259 ms by bot id=8088668796
 2025-04-30 14:18:18,281 - [INFO] - Update id=28738393 is handled. Duration 2171 ms by bot id=8088668796
+2025-04-30 14:18:20,879 - [INFO] - Start polling
+2025-04-30 14:18:21,062 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:18:21,082 - [WARNING] - Received SIGTERM signal
+2025-04-30 14:18:21,083 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:18:21,083 - [INFO] - Polling stopped
+2025-04-30 14:18:21,337 - [INFO] - Update id=28738394 is not handled. Duration 1545 ms by bot id=8088668796
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+2025-04-30 14:18:22,802 - [WARNING] - Received SIGTERM signal
+2025-04-30 14:18:22,803 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:18:22,803 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+2025-04-30 14:18:23,635 - [INFO] - Start polling
+2025-04-30 14:18:23,800 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'

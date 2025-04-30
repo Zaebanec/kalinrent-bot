@@ -217,3 +217,12 @@ OWNER_ID = 6180797700
 2025-04-30 13:49:22,539 - [WARNING] - Sleep for 1.867079 seconds and try again... (tryings = 2, bot id = 8088668796)
 2025-04-30 13:49:28,806 - [INFO] - Connection established (tryings = 3, bot id = 8088668796)
 2025-04-30 13:49:29,010 - [INFO] - Update id=28738348 is handled. Duration 201 ms by bot id=8088668796
+2025-04-30 13:49:31,683 - [INFO] - Update id=28738349 is handled. Duration 1645 ms by bot id=8088668796
+2025-04-30 13:49:33,322 - [WARNING] - Received SIGTERM signal
+2025-04-30 13:49:33,323 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 13:49:33,323 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+2025-04-30 13:49:34,159 - [INFO] - Start polling
+2025-04-30 13:49:34,330 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'

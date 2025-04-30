@@ -1,14 +1,13 @@
-# handlers/admin.py (FSM: добавление квартиры с защитой переменной)
+# handlers/admin.py (финальная версия: добавление + удаление квартир)
 
 from aiogram import Router, types, F
-from aiogram.filters import Command, StateFilter
+from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
-from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, FSInputFile
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters.state import State, StatesGroup
-from database.db import add_apartment
+from database.db import add_apartment, get_all_apartments, delete_apartment
 import os
 
-# OWNER_ID с безопасной проверкой окружения
 raw_id = os.getenv("OWNER_ID")
 if not raw_id:
     print("⚠️ OWNER_ID не найден. Проверь t.env")
@@ -17,7 +16,6 @@ OWNER_ID = int(raw_id)
 
 router = Router()
 
-# Состояния FSM для добавления квартиры
 class AddApartment(StatesGroup):
     waiting_for_title = State()
     waiting_for_description = State()
@@ -26,14 +24,16 @@ class AddApartment(StatesGroup):
     waiting_for_rooms = State()
     waiting_for_photo = State()
 
-# Кнопка запуска добавления квартиры
+# Вход в админку
 @router.message(Command("admin"), F.from_user.id == OWNER_ID)
 async def admin_menu(message: types.Message):
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="➕ Добавить квартиру", callback_data="add_apartment")]
+        [InlineKeyboardButton(text="➕ Добавить квартиру", callback_data="add_apartment")],
+        [InlineKeyboardButton(text="🗑 Удалить квартиру", callback_data="delete_apartment")]
     ])
-    await message.answer("🔧 Админ-панель:", reply_markup=keyboard)
+    await message.answer("🔧 Добро пожаловать в админ-панель:", reply_markup=keyboard)
 
+# FSM: добавление квартиры
 @router.callback_query(F.data == "add_apartment")
 async def start_add_apartment(callback: types.CallbackQuery, state: FSMContext):
     await state.set_state(AddApartment.waiting_for_title)
@@ -102,3 +102,30 @@ async def add_photo(message: types.Message, state: FSMContext):
 @router.message(AddApartment.waiting_for_photo)
 async def photo_required(message: types.Message):
     await message.answer("⚠️ Пожалуйста, отправьте именно фото квартиры.")
+
+# Удаление квартиры
+@router.callback_query(F.data == "delete_apartment")
+async def choose_apartment_to_delete(callback: types.CallbackQuery):
+    apartments = get_all_apartments()
+    if not apartments:
+        await callback.message.answer("⚠️ Квартир нет в базе.")
+        return
+
+    keyboard = []
+    for apt in apartments:
+        button = InlineKeyboardButton(
+            text=f"❌ {apt['title']} (ID {apt['id']})",
+            callback_data=f"confirm_delete_{apt['id']}"
+        )
+        keyboard.append([button])
+
+    await callback.message.answer("Выберите квартиру для удаления:",
+                                  reply_markup=InlineKeyboardMarkup(inline_keyboard=keyboard))
+    await callback.answer()
+
+@router.callback_query(F.data.startswith("confirm_delete_"))
+async def confirm_delete(callback: types.CallbackQuery):
+    apt_id = int(callback.data.replace("confirm_delete_", ""))
+    delete_apartment(apt_id)
+    await callback.message.answer(f"✅ Квартира с ID {apt_id} удалена.")
+    await callback.answer()

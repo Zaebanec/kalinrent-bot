@@ -461,3 +461,46 @@ Traceback (most recent call last):
     await message.answer("Запуск админ-панели...\n
                          ^
 SyntaxError: unterminated string literal (detected at line 43)
+2025-04-30 14:39:51,421 - [INFO] - Start polling
+2025-04-30 14:39:51,643 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:39:53,660 - [INFO] - Update id=28738415 is handled. Duration 564 ms by bot id=8088668796
+2025-04-30 14:39:55,646 - [INFO] - Update id=28738416 is handled. Duration 392 ms by bot id=8088668796
+2025-04-30 16:06:05,430 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 16:06:05,533 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 16:06:17,718 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 16:06:18,190 - [INFO] - Update id=28738417 is handled. Duration 468 ms by bot id=8088668796
+2025-04-30 17:00:24,632 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 17:00:24,633 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 17:00:30,832 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 17:00:30,850 - [INFO] - Update id=28738419 is handled. Duration 14 ms by bot id=8088668796
+2025-04-30 17:00:30,856 - [INFO] - Update id=28738421 is handled. Duration 19 ms by bot id=8088668796
+2025-04-30 17:00:30,857 - [INFO] - Update id=28738418 is handled. Duration 22 ms by bot id=8088668796
+2025-04-30 17:00:30,857 - [INFO] - Update id=28738420 is not handled. Duration 20 ms by bot id=8088668796
+2025-04-30 17:00:30,858 - [INFO] - Update id=28738423 is handled. Duration 17 ms by bot id=8088668796
+2025-04-30 17:00:31,070 - [INFO] - Update id=28738422 is handled. Duration 229 ms by bot id=8088668796
+2025-04-30 17:43:40,953 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 17:43:40,954 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 17:43:42,166 - [INFO] - Connection established (tryings = 1, bot id = 8088668796)
+2025-04-30 17:43:42,176 - [INFO] - Update id=28738426 is handled. Duration 5 ms by bot id=8088668796
+2025-04-30 17:43:42,449 - [INFO] - Update id=28738425 is handled. Duration 279 ms by bot id=8088668796
+2025-04-30 17:52:04,281 - [ERROR] - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-04-30 17:52:04,281 - [WARNING] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8088668796)
+2025-04-30 17:52:09,601 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-30 17:52:09,601 - [WARNING] - Sleep for 1.167516 seconds and try again... (tryings = 1, bot id = 8088668796)
+2025-04-30 17:52:15,132 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-30 17:52:15,132 - [WARNING] - Sleep for 1.452964 seconds and try again... (tryings = 2, bot id = 8088668796)
+2025-04-30 17:52:21,279 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-30 17:52:21,279 - [WARNING] - Sleep for 1.800107 seconds and try again... (tryings = 3, bot id = 8088668796)
+2025-04-30 17:52:28,112 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-30 17:52:28,113 - [WARNING] - Sleep for 2.410488 seconds and try again... (tryings = 4, bot id = 8088668796)
+2025-04-30 17:52:36,021 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-30 17:52:36,021 - [WARNING] - Sleep for 3.104468 seconds and try again... (tryings = 5, bot id = 8088668796)
+2025-04-30 17:52:42,215 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-30 17:52:42,216 - [WARNING] - Sleep for 3.989786 seconds and try again... (tryings = 6, bot id = 8088668796)
+2025-04-30 17:52:50,300 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-30 17:52:50,300 - [WARNING] - Sleep for 4.995817 seconds and try again... (tryings = 7, bot id = 8088668796)
+2025-04-30 17:53:00,498 - [ERROR] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-30 17:53:00,498 - [WARNING] - Sleep for 4.944636 seconds and try again... (tryings = 8, bot id = 8088668796)
+2025-04-30 17:53:15,501 - [INFO] - Connection established (tryings = 9, bot id = 8088668796)
+2025-04-30 17:53:28,829 - [INFO] - Update id=28738433 is handled. Duration 272 ms by bot id=8088668796
+2025-04-30 17:55:21,967 - [INFO] - Update id=28738434 is handled. Duration 416 ms by bot id=8088668796

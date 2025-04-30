@@ -1,4 +1,4 @@
-# handlers/start.py
+# handlers/start.py (доработан с кнопкой "🛠 Админ-панель")
 
 from aiogram import Router, types, F
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
@@ -9,6 +9,7 @@ from states.search_states import SearchStates
 router = Router()
 
 # Главное меню
+
 def get_main_menu():
     keyboard = [
         [KeyboardButton(text="🔍 Поиск квартиры")],
@@ -35,3 +36,10 @@ async def cmd_search(message: types.Message, state: FSMContext):
         "📍 Выберите фильтры для поиска квартиры:",
         reply_markup=get_filters_keyboard()
     )
+
+# Обработка кнопки "🛠 Админ-панель"
+@router.message(F.text == "🛠 Админ-панель")
+async def open_admin_panel(message: types.Message):
+    await message.answer("Запуск админ-панели...\n
+Нажмите или напишите /admin")
+    await message.answer("/admin")

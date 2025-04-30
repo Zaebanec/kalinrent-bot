@@ -437,3 +437,13 @@ OWNER_ID = 6180797700
 OWNER_ID = 6180797700
 2025-04-30 14:18:35,842 - [INFO] - Start polling
 2025-04-30 14:18:36,022 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:21:09,731 - [INFO] - Update id=28738397 is handled. Duration 2117 ms by bot id=8088668796
+2025-04-30 14:21:11,403 - [WARNING] - Received SIGTERM signal
+2025-04-30 14:21:11,404 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:21:11,404 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+2025-04-30 14:21:12,320 - [INFO] - Start polling
+2025-04-30 14:21:12,598 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:21:13,161 - [INFO] - Update id=28738398 is handled. Duration 478 ms by bot id=8088668796

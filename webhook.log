@@ -96,3 +96,6 @@ INFO:werkzeug:127.0.0.1 - - [30/Apr/2025 14:18:29] "POST /update HTTP/1.1" 200 -
 INFO:root:2025-04-30 14:18:34.417176 — Webhook received
 INFO:root:Bot updated and restarted successfully
 INFO:werkzeug:127.0.0.1 - - [30/Apr/2025 14:18:35] "POST /update HTTP/1.1" 200 -
+INFO:root:2025-04-30 14:21:10.733436 — Webhook received
+INFO:root:Bot updated and restarted successfully
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2025 14:21:11] "POST /update HTTP/1.1" 200 -

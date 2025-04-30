@@ -373,3 +373,12 @@ NameError: name 'router' is not defined
 OWNER_ID = 6180797700
 2025-04-30 14:00:13,998 - [INFO] - Start polling
 2025-04-30 14:00:14,246 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:00:20,471 - [INFO] - Update id=28738389 is handled. Duration 1633 ms by bot id=8088668796
+2025-04-30 14:00:21,871 - [WARNING] - Received SIGTERM signal
+2025-04-30 14:00:21,871 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:00:21,871 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+2025-04-30 14:00:22,704 - [INFO] - Start polling
+2025-04-30 14:00:22,874 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'

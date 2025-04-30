@@ -447,3 +447,17 @@ OWNER_ID = 6180797700
 2025-04-30 14:21:12,320 - [INFO] - Start polling
 2025-04-30 14:21:12,598 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
 2025-04-30 14:21:13,161 - [INFO] - Update id=28738398 is handled. Duration 478 ms by bot id=8088668796
+2025-04-30 14:37:58,434 - [INFO] - Update id=28738399 is handled. Duration 2101 ms by bot id=8088668796
+2025-04-30 14:37:59,922 - [WARNING] - Received SIGTERM signal
+2025-04-30 14:37:59,923 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 14:37:59,923 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+Traceback (most recent call last):
+  File "/Users/39apple.ru/projects/kalinrentbot/main.py", line 6, in <module>
+    from handlers import start, admin, booking, contact, search
+  File "/Users/39apple.ru/projects/kalinrentbot/handlers/start.py", line 43
+    await message.answer("Запуск админ-панели...\n
+                         ^
+SyntaxError: unterminated string literal (detected at line 43)

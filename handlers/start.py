@@ -40,6 +40,5 @@ async def cmd_search(message: types.Message, state: FSMContext):
 # Обработка кнопки "🛠 Админ-панель"
 @router.message(F.text == "🛠 Админ-панель")
 async def open_admin_panel(message: types.Message):
-    await message.answer("Запуск админ-панели...\n
-Нажмите или напишите /admin")
+    await message.answer("Запуск админ-панели...\nНажмите или напишите /admin")
     await message.answer("/admin")

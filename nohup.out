@@ -347,3 +347,18 @@ OWNER_ID = 6180797700
 OWNER_ID = 6180797700
 2025-04-30 13:56:47,378 - [INFO] - Start polling
 2025-04-30 13:56:47,549 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 13:57:55,274 - [INFO] - Update id=28738383 is handled. Duration 1596 ms by bot id=8088668796
+2025-04-30 13:57:56,608 - [WARNING] - Received SIGTERM signal
+2025-04-30 13:57:56,608 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 13:57:56,608 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+⚠️ OWNER_ID не найден. Проверь t.env
+Traceback (most recent call last):
+  File "/Users/39apple.ru/projects/kalinrentbot/main.py", line 10, in <module>
+    from handlers import admin_update_handler
+  File "/Users/39apple.ru/projects/kalinrentbot/handlers/admin_update_handler.py", line 1, in <module>
+    @router.callback_query(F.data == "admin_update_bot")
+     ^^^^^^
+NameError: name 'router' is not defined

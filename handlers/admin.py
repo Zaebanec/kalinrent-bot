@@ -1,4 +1,4 @@
-# handlers/admin.py (финальная версия: добавление + удаление квартир)
+# handlers/admin.py (финальная сборка: добавление, удаление, обновление)
 
 from aiogram import Router, types, F
 from aiogram.filters import Command
@@ -7,6 +7,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters.state import State, StatesGroup
 from database.db import add_apartment, get_all_apartments, delete_apartment
 import os
+import subprocess
 
 raw_id = os.getenv("OWNER_ID")
 if not raw_id:
@@ -24,14 +25,28 @@ class AddApartment(StatesGroup):
     waiting_for_rooms = State()
     waiting_for_photo = State()
 
-# Вход в админку
+# /admin вход в админку
 @router.message(Command("admin"), F.from_user.id == OWNER_ID)
 async def admin_menu(message: types.Message):
+    print("✅ admin_menu сработал")
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="➕ Добавить квартиру", callback_data="add_apartment")],
-        [InlineKeyboardButton(text="🗑 Удалить квартиру", callback_data="delete_apartment")]
+        [InlineKeyboardButton(text="🗑 Удалить квартиру", callback_data="delete_apartment")],
+        [InlineKeyboardButton(text="🔄 Обновить бота", callback_data="update_bot")]
     ])
     await message.answer("🔧 Добро пожаловать в админ-панель:", reply_markup=keyboard)
+
+# Обновление бота
+@router.callback_query(F.data == "update_bot")
+async def update_bot(callback: types.CallbackQuery):
+    result = subprocess.run(["python3", "git_push.py"], capture_output=True, text=True)
+    if result.returncode == 0:
+        await callback.message.answer("✅ Обновление запущено. Бот скоро перезапустится.")
+    elif result.returncode == 2:
+        await callback.message.answer("⚠️ Нет изменений для пуша. Бот не обновлялся.")
+    else:
+        await callback.message.answer("❌ Ошибка при обновлении. Посмотри логи в консоли.")
+    await callback.answer()
 
 # FSM: добавление квартиры
 @router.callback_query(F.data == "add_apartment")

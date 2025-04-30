@@ -517,3 +517,12 @@ Traceback (most recent call last):
   File "/Users/39apple.ru/projects/kalinrentbot/handlers/admin.py", line 8, in <module>
     from database.db import add_apartment, get_all_apartments, delete_apartment
 ImportError: cannot import name 'get_all_apartments' from 'database.db' (/Users/39apple.ru/projects/kalinrentbot/database/db.py)
+2025-04-30 18:02:05,106 - [INFO] - Start polling
+2025-04-30 18:02:05,271 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 18:02:05,907 - [INFO] - Update id=28738447 is handled. Duration 578 ms by bot id=8088668796
+2025-04-30 18:02:07,205 - [INFO] - Update id=28738448 is handled. Duration 88 ms by bot id=8088668796
+2025-04-30 18:02:11,138 - [INFO] - Update id=28738449 is not handled. Duration 5 ms by bot id=8088668796
+2025-04-30 18:02:12,527 - [INFO] - Update id=28738450 is handled. Duration 81 ms by bot id=8088668796
+2025-04-30 18:02:14,040 - [INFO] - Update id=28738451 is handled. Duration 160 ms by bot id=8088668796
+2025-04-30 18:02:15,370 - [INFO] - Update id=28738452 is handled. Duration 160 ms by bot id=8088668796
+2025-04-30 18:02:17,035 - [INFO] - Update id=28738453 is handled. Duration 82 ms by bot id=8088668796

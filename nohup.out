@@ -526,3 +526,15 @@ ImportError: cannot import name 'get_all_apartments' from 'database.db' (/Users/
 2025-04-30 18:02:14,040 - [INFO] - Update id=28738451 is handled. Duration 160 ms by bot id=8088668796
 2025-04-30 18:02:15,370 - [INFO] - Update id=28738452 is handled. Duration 160 ms by bot id=8088668796
 2025-04-30 18:02:17,035 - [INFO] - Update id=28738453 is handled. Duration 82 ms by bot id=8088668796
+2025-04-30 18:14:38,195 - [INFO] - Update id=28738454 is handled. Duration 2363 ms by bot id=8088668796
+2025-04-30 18:14:39,793 - [WARNING] - Received SIGTERM signal
+2025-04-30 18:14:39,794 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 18:14:39,794 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+⚠️ OWNER_ID не найден. Проверь t.env
+Traceback (most recent call last):
+  File "/Users/39apple.ru/projects/kalinrentbot/main.py", line 10, in <module>
+    from handlers import admin_update_handler
+ImportError: cannot import name 'admin_update_handler' from 'handlers' (unknown location)

@@ -1,4 +1,4 @@
-# handlers/admin.py (финальная сборка: добавление, удаление, обновление)
+# handlers/admin.py (финальный фикс OWNER_ID и доступа)
 
 from aiogram import Router, types, F
 from aiogram.filters import Command
@@ -9,11 +9,14 @@ from database.db import add_apartment, get_all_apartments, delete_apartment
 import os
 import subprocess
 
-raw_id = os.getenv("OWNER_ID")
-if not raw_id:
-    print("⚠️ OWNER_ID не найден. Проверь t.env")
-    raw_id = "0"
-OWNER_ID = int(raw_id)
+from dotenv import load_dotenv
+load_dotenv("t.env")
+
+try:
+    OWNER_ID = int(os.getenv("OWNER_ID"))
+except (TypeError, ValueError):
+    print("⚠️ OWNER_ID не найден или невалиден. Проверь t.env")
+    OWNER_ID = 0
 
 router = Router()
 
@@ -26,9 +29,13 @@ class AddApartment(StatesGroup):
     waiting_for_photo = State()
 
 # /admin вход в админку
-@router.message(Command("admin"), F.from_user.id == OWNER_ID)
+@router.message(Command("admin"))
 async def admin_menu(message: types.Message):
-    print("✅ admin_menu сработал")
+    print(f"⚙️ admin_menu вызван от: {message.from_user.id}, OWNER_ID = {OWNER_ID}")
+    if message.from_user.id != OWNER_ID:
+        await message.answer("🚫 У вас нет доступа к админке.")
+        return
+
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="➕ Добавить квартиру", callback_data="add_apartment")],
         [InlineKeyboardButton(text="🗑 Удалить квартиру", callback_data="delete_apartment")],

@@ -504,3 +504,16 @@ SyntaxError: unterminated string literal (detected at line 43)
 2025-04-30 17:53:15,501 - [INFO] - Connection established (tryings = 9, bot id = 8088668796)
 2025-04-30 17:53:28,829 - [INFO] - Update id=28738433 is handled. Duration 272 ms by bot id=8088668796
 2025-04-30 17:55:21,967 - [INFO] - Update id=28738434 is handled. Duration 416 ms by bot id=8088668796
+2025-04-30 17:57:48,848 - [INFO] - Update id=28738435 is handled. Duration 1523 ms by bot id=8088668796
+2025-04-30 17:57:50,463 - [WARNING] - Received SIGTERM signal
+2025-04-30 17:57:50,464 - [INFO] - Polling stopped for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
+2025-04-30 17:57:50,464 - [INFO] - Polling stopped
+⚠️ OWNER_ID не найден. Проверь t.env
+🟢 KalinRentBot запущен!
+OWNER_ID = 6180797700
+Traceback (most recent call last):
+  File "/Users/39apple.ru/projects/kalinrentbot/main.py", line 6, in <module>
+    from handlers import start, admin, booking, contact, search
+  File "/Users/39apple.ru/projects/kalinrentbot/handlers/admin.py", line 8, in <module>
+    from database.db import add_apartment, get_all_apartments, delete_apartment
+ImportError: cannot import name 'get_all_apartments' from 'database.db' (/Users/39apple.ru/projects/kalinrentbot/database/db.py)

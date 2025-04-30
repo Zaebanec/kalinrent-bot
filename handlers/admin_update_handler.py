@@ -6,19 +6,20 @@ from keyboards.admin_inline_menu import admin_menu
 
 router = Router()
 
-# Команда /admin вызывает меню
 @router.message(F.text == "/admin")
 async def admin_panel(message: types.Message):
     await message.answer("Добро пожаловать в админ-панель", reply_markup=admin_menu)
 
-# Обработка нажатия "🔄 Обновить бота"
 @router.callback_query(F.data == "admin_update_bot")
 async def update_bot_callback(callback: CallbackQuery):
     await callback.answer("Обновление начато...", show_alert=False)
     try:
         result = subprocess.run(["python3", "git_push.py"], capture_output=True, text=True)
         if result.returncode == 0:
-            await callback.message.answer("✅ Изменения запушены. Бот скоро перезапустится.")
+            if "NO_CHANGES" in result.stdout:
+                await callback.message.answer("ℹ️ Нет изменений для пуша. Всё актуально.")
+            else:
+                await callback.message.answer("✅ Изменения запушены. Бот скоро перезапустится.")
         else:
             await callback.message.answer(f"⚠️ Ошибка при пуше:\n{result.stderr}")
     except Exception as e:

@@ -1,4 +1,3 @@
-
 import os
 import subprocess
 from dotenv import load_dotenv
@@ -17,10 +16,9 @@ subprocess.run(["git", "add", "-A"])
 
 status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
 if status.stdout.strip() == "":
-    print("NO_CHANGES")
-    exit(0)
+    exit(2)  # специальных код, если нечего пушить
 
 subprocess.run(["git", "commit", "-m", "🤖 автопуш от кнопки"], check=True)
 subprocess.run(["git", "push", "origin", "main"], check=True)
 
-print("✅ Пуш выполнен")
+exit(0)

@@ -1,4 +1,3 @@
-
 from aiogram import Router, types, F
 from aiogram.types import CallbackQuery
 import subprocess
@@ -16,10 +15,9 @@ async def update_bot_callback(callback: CallbackQuery):
     try:
         result = subprocess.run(["python3", "git_push.py"], capture_output=True, text=True)
         if result.returncode == 0:
-            if "NO_CHANGES" in result.stdout:
-                await callback.message.answer("ℹ️ Нет изменений для пуша. Всё актуально.")
-            else:
-                await callback.message.answer("✅ Изменения запушены. Бот скоро перезапустится.")
+            await callback.message.answer("✅ Изменения запушены. Бот скоро перезапустится.")
+        elif result.returncode == 2:
+            await callback.message.answer("ℹ️ Нет изменений для пуша. Всё актуально.")
         else:
             await callback.message.answer(f"⚠️ Ошибка при пуше:\n{result.stderr}")
     except Exception as e:

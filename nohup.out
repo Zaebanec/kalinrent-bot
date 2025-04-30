@@ -362,3 +362,5 @@ Traceback (most recent call last):
     @router.callback_query(F.data == "admin_update_bot")
      ^^^^^^
 NameError: name 'router' is not defined
+2025-04-30 14:00:09,063 - [INFO] - Start polling
+2025-04-30 14:00:09,233 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'

@@ -1,3 +1,4 @@
+
 import os
 import subprocess
 from dotenv import load_dotenv
@@ -11,15 +12,22 @@ if not token:
 repo = "Zaebanec/kalinrent-bot"
 remote_url = f"https://{token}@github.com/{repo}.git"
 
+# Устанавливаем origin
 subprocess.run(["git", "remote", "set-url", "origin", remote_url], check=True)
+
+# Добавляем все изменения
 subprocess.run(["git", "add", "-A"])
 
-# Проверка: есть ли что коммитить?
-check = subprocess.run(["git", "diff", "--cached", "--quiet"])
-if check.returncode == 1:
-    subprocess.run(["git", "commit", "-m", "🤖 автопуш от кнопки"], check=True)
-    subprocess.run(["git", "push", "origin", "main"], check=True)
-    exit(0)
-else:
-    # индекс пуст — нечего пушить
+# Проверяем — есть ли что коммитить (только реальные изменения)
+status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+lines = status.stdout.strip().splitlines()
+real_changes = [line for line in lines if not line.endswith(("nohup.out", "webhook.log", ".DS_Store"))]
+
+if not real_changes:
     exit(2)
+
+# Коммит и пуш
+subprocess.run(["git", "commit", "-m", "🤖 автопуш от кнопки"], check=True)
+subprocess.run(["git", "push", "origin", "main"], check=True)
+
+exit(0)

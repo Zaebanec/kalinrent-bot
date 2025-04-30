@@ -7,7 +7,9 @@ from handlers import start, admin, booking, contact, search
 from middlewares.antiflood import AntifloodMiddleware
 from utils.logger import setup_logger
 from dotenv import load_dotenv
-print("🟢 KalinRentBot запущен!")
+from handlers import admin_update_handler
+
+print ("🟢 KalinRentBot запущен!")
 # Загружаем переменные окружения из t.env
 load_dotenv("t.env")
 print("OWNER_ID =", os.getenv("OWNER_ID"))
@@ -32,6 +34,7 @@ async def main():
     dp.include_router(booking.router)
     dp.include_router(contact.router)
     dp.include_router(search.router)
+    dp.include_router(admin_update_handler.router)
 
     await dp.start_polling(bot)
 

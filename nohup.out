@@ -183,3 +183,5 @@ Traceback (most recent call last):
   File "/Users/39apple.ru/projects/kalinrentbot/main.py", line 10, in <module>
     from handlers import admin_update_handler
 ImportError: cannot import name 'admin_update_handler' from 'handlers' (unknown location)
+2025-04-30 13:42:46,363 - [INFO] - Start polling
+2025-04-30 13:42:46,638 - [INFO] - Run polling for bot @KalinRentBot id=8088668796 - 'KalinRentBot'
